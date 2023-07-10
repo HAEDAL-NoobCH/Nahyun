@@ -2,82 +2,74 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewprot" content="width=device-width ,initial-scale=1.0">
-    <title>2주차 해달과제</title>
-    <style>
-        .class1{
-            width:400px;
-            height:200px;
-        }
-        #id_1{
-            width:500px;
-            height:200px;
-            border:1px solid black;
-        }
-        .class2{
-            width:300px;
-            height:300px;
-        }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link href="https://fonts.google.com/specimen/Roboto" rel="styleheet">!-->
+    <link rel="stylesheet" href="./style.css">
+    <title>Youtube Mobile</title>
 </head>
-<body style="background-color:bisque">
-    <div id="id_1">
-        <table>
-            <caption>자기소개</caption>
+<body>
+    <header>
+        <div class="logo">
+            <i class="fa-brands fa-youtube"></i>
+            <span class="title">Youtube</span>
+        </div>
+        <div class="icons">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-list"></i>
             
-            <tr>
-                <th>이름</th>
-                <th>나이</th>
-                <th>전공</th>
-                <th>학년</th>
-            </tr>
-            <tr>
-                <th>김나현</th>
-                <th> 02년생</th>
-                <th> 인공지능컴퓨팅전공</th>
-                <th> 1학년</th>
-            </tr>
-        </table>
-    </div>
+        </div>
+    </header>
+    <section class="player">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/7W7RQqH4r2w?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </section>
+    <section class="info">
+        <div class="metadat">
+            <ul class="hasgtags">
+                <li>#DreamCoding</li>
+                <li>#DreamCoders</li>
+                <li>#Ellic</li>
+            </ul>
+            <div class="titleAndButtons">
+                <span class="title">
+                    >비투비 너없인 안된다
+                </span>
+                <button class="moreBtn"><i class="fa-solid fa-arrow-up-from-bracket"></i></button>
 
-    <h1>본인소개</h1>
-    <div class="class1">
-        <p>
-            안녕하십니까, 저는 컴퓨터학부 인공지능컴퓨팅전공 1학년 재학생입니다.<br/>
-            해달 준회원에 속해 있으며 뉴비챌린지를 진행하고 있습니다.<br/>
-
-        </p>
-
-    </div>
-    <div>
-        <h2>특기</h2>
-        <p>
-            마음에 드는 것은 집중적으로 잘 팝니다. 
-        </p>
-    </div>
-    <div class="class2">
-        <h3>장점</h3>
-        <p>
-            잘 웃습니다. 친근하고 사교성이 좋습니다. 배려를 잘합니다.<br/>
-            긍정적입니다. 맡은 바를 열심히 합니다.
+            </div>
+            <div class="views">
+                <span class="views">
+                    1M views 1 month ago
+                </span>
+            </div>
+        </div>
+        <div class="actions">
+            <li> <button><i class="fa-regular fa-thumbs-up"></i><span>1K</span></button></li>
+            <li><button><i class="fa-solid fa-thumbs-down"></i><span>0</span></button></li>
+            <li><button><i class="fa-regular fa-share"></i><span>Share</span></button></li>
+            <li><button><i class="fa-solid fa-plus"></i><span>Save</span></button></li>
+            <li><button><i class="fa-solid fa-font-awesome"></i><span>Report</span></button></li>
             
-        </p>
-    </div>
-
-    <div>
-        <h3>단점</h3>
-        <p>
-            상대방의 눈치를 조금 봅니다.<br/>
-            하기 싫은 건 절대로 안 합니다.
-        </p>
-    </div>
-    <div>
-        <h5>좋아하는 사진</h5>
-        <img src="C:\나현\해달\KakaoTalk_20230705_162342162.jpg" alt="헉 왜 안 뜨지">
-        <img src="C:\나현\해달\KakaoTalk_20230705_162342162_01.jpg" alt="헉 왜 안 뜨지..">
-        <p>
-            야경 찍고 보러 다니는 것 좋아합니당! 
-        </p>
+        </div>
+        <div class="chaneel"></div>
+        <div class="metadata">
+            <img src="C:\나현\해달\5차시 과제\avata.jpg" alt="">
+            <div class="info"><span class="name">김나현</span><span class="subscrilbers">1M subscribers</span></div>
+        </div>
+        <button class="subscribe">subscribe</button>
+    </section>
+    <section class="upnext">
+        <span class="title">Up next</span>
+        <ul>
+            <li class="item">
+                <img src="C:\나현\해달\5차시 과제\2.JPG" alt="">
+                <div class="info">
+                    <span class="title">비투비 그리워하다</span><span class="name">멜로디</span><span class="views">82K views</span>
+                </div>
+                <button class="moreBtn"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+            </li>
+        </ul>
+    </section>
+    <div class="infoAndUpNext">
 
     </div>
 </body>
